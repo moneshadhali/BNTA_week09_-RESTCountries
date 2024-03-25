@@ -8,7 +8,7 @@ const CountryList = ({countries}) => {
         <>
             {mappedCountries}
         </>
-     );
+    );
 }
  
 export default CountryList;

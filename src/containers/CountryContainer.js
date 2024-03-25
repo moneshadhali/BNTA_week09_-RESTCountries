@@ -21,7 +21,10 @@ const CountryContainer = () => {
     return ( 
         <>
             {/* {JSON.stringify(countries)} */}
-            <CountryList countries={countries}/>
+            {countries ? <CountryList countries={countries}/>
+            : <p>Loading</p>
+            }
+            
         </>
     );
 }

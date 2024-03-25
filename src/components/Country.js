@@ -13,6 +13,7 @@ const Country = ({country}) => {
             <p>Capital: {country.capital}</p>
             {/* <p>Language: {country.languages}</p> */}
             <p>Language: {languages()}</p>
+            <img src = {country.flags.png} alt="" />
         </>
     );
 }
